@@ -1,4 +1,4 @@
-![DogeBeGone](https://raw.githubusercontent.com/sableraf/DogeBeGone/master/icon128.png)
+![DogeBeGone Icon](./icon128.png)
 
 # DogeBeGone
 
