@@ -1,3 +1,5 @@
+![DogeBeGone](https://raw.githubusercontent.com/sableraf/DogeBeGone/master/icon128.png)
+
 # DogeBeGone
 
 DogeBeGone is a Chrome extension that saves your precious eyes from the _genius_ creation of Elon Musk, who decided it was a **brilliant** idea to replace the classic Twitter icon with a Doge icon. Because, you know, who doesn't love a good pump and dump on their digital town square?
