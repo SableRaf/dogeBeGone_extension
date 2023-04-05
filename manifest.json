@@ -3,9 +3,6 @@
     "name": "DogeBeGone",
     "version": "1.0",
     "description": "Hides the Doge icon from Twitter and brings back the bird.",
-    "permissions": [
-        "activeTab"
-    ],
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
