@@ -26,8 +26,7 @@ Once the extension is installed, just visit [Twitter](https://twitter.com/) and 
 
 ## Limitations
 
-* The Doge icon on first load is still present.
-* The extension hides the Doge icon but doesn not currently replace it with the Bird 
+* The extension hides the Doge icon but doesn not currently replace it with the Bird
 
 ## Contributing
 
