@@ -1,4 +1,4 @@
-![DogeBeGone Icon](./icon128.png)
+![DogeBeGone Icon](./header.png)
 
 # DogeBeGone
 
