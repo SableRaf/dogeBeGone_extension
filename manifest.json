@@ -24,9 +24,13 @@
             "matches": [
                 "https://twitter.com/*"
             ],
+            "css": [
+                "styles.css"
+            ],
             "js": [
                 "contentScript.js"
-            ]
+            ],
+            "run_at": "document_start"
         }
     ]
 }
