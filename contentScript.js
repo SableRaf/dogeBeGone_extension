@@ -1,10 +1,9 @@
 function hideSpecifiedElement() {
+  const targetPathSelector = 'path[d="M2.412.974h19.176v22.052H2.412z"]';
+  const pathElement = document.querySelector(targetPathSelector);
 
-  const targetSelector = 'a[aria-label="Twitter"][role="link"]';
-  const twitterElements = document.querySelectorAll(targetSelector);
-
-  for (const element of twitterElements) {
-    element.style.visibility = "hidden";
+  if (pathElement) {
+    pathElement.style.visibility = "hidden";
   }
 }
 
@@ -21,3 +20,5 @@ function observeDOMChanges() {
 }
 
 window.onload = observeDOMChanges;
+
+hideSpecifiedElement();
