@@ -13,11 +13,11 @@ To install DogeBeGone locally, follow these steps:
 3. Enable "Developer mode" by clicking the toggle switch in the top right corner.
 4. Click "Load unpacked" and select the folder containing the DogeBeGone Chrome extension files.
 
-Now, you can enjoy Twitter without being _distracted_ by Elon Musk's junior dev prowess.
+Now, you can enjoy Twitter without being distracted by a dead meme from 2013.
 
 ## Usage
 
-Once the extension is installed, just visit [Twitter](https://twitter.com/) and let DogeBeGone work its magic. The Doge icon will be gone, and the bird will fly back to its rightful place (WIP)
+Once the extension is installed, just visit [Twitter](https://twitter.com/) and let DogeBeGone work its magic. The Doge icon will be gone, and the bird will fly back to its rightful place.
 
 ## Limitations
 
