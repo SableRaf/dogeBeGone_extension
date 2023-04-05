@@ -19,10 +19,6 @@ Now, you can enjoy Twitter without being distracted by a dead meme from 2013.
 
 Once the extension is installed, just visit [Twitter](https://twitter.com/) and let DogeBeGone work its magic. The Doge icon will be gone, and the bird will fly back to its rightful place.
 
-## Limitations
-
-* The extension hides the Doge icon but doesn not currently replace it with the Bird
-
 ## Contributing
 
 If you want to contribute to this highly important and groundbreaking project, feel free to submit a pull request or open an issue. We're always open to improvements, especially in the sarcasm department.
