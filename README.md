@@ -2,12 +2,7 @@
 
 # DogeBeGone
 
-DogeBeGone is a Chrome extension that saves your precious eyes from the _genius_ creation of Elon Musk, who decided it was a **brilliant** idea to replace the classic Twitter icon with a Doge icon. Because, you know, who doesn't love a good pump and dump on their digital town square?
-
-## Features
-
-- Saves you from having to witness the artistic _masterpiece_ of a Doge icon every time you visit Twitter.
-- **WIP:** Reverts the Twitter icon back to its original bird form, just like nature intended.
+DogeBeGone is a Chrome extension that saves your precious eyes from the scourge of Doge and reverts the Twitter icon back to its original bird form, just like nature intended.
 
 ## Installation
 

@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "DogeBeGone",
     "version": "1.0",
-    "description": "Hides the Doge icon from Twitter",
+    "description": "Hides the Doge icon from Twitter and brings back the bird.",
     "permissions": [
         "activeTab"
     ],
