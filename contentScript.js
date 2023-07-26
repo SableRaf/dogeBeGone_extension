@@ -7,19 +7,19 @@ function replaceLogo() {
   const headerElement = document.querySelector('header[role="banner"]');
 
   if (headerElement) {
-      // Look for an SVG within the header
-      const svgElement = headerElement.querySelector('svg');
+    // Look for an SVG within the header
+    const svgElement = headerElement.querySelector('svg');
 
-      if (svgElement) {
-          // Find the first path element within the SVG (assuming the logo is the first path)
-          const pathElement = svgElement.querySelector('path');
+    if (svgElement) {
+      // Find the first path element within the SVG (assuming the logo is the first path)
+      const pathElement = svgElement.querySelector('path');
 
-          if (pathElement) {
-              pathElement.setAttribute("d", twitterBirdPath);
-              pathElement.style.visibility = "visible";
-              pathElement.style.fill = twitterBirdColor;
-          }
+      if (pathElement) {
+        pathElement.setAttribute("d", twitterBirdPath);
+        pathElement.style.visibility = "visible";
+        pathElement.style.fill = twitterBirdColor;
       }
+    }
   }
 }
 
