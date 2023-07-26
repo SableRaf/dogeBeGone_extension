@@ -22,13 +22,27 @@ function replaceLogo() {
   }
 }
 
+function replaceFavicon() {
+  const newFaviconURL = 'twitter.ico'; // Update this path to where your 'twitter.ico' is hosted
+
+  // Get the favicon link element or create one if it doesn't exist
+  let linkElement = document.querySelector('link[rel="icon"], link[rel="shortcut icon"]');
+
+  if (!linkElement) {
+      linkElement = document.createElement('link');
+      linkElement.rel = 'icon';
+      document.head.appendChild(linkElement);
   }
+
+  // Replace the href attribute with the new favicon URL
+  linkElement.href = newFaviconURL;
 }
 
 
 
 document.addEventListener("DOMContentLoaded", function() {
   replaceLogo(); // Replace the logo on initial page load
+  replaceFavicon(); // Replace the favicon on initial page load
 });
 
 // Observe the DOM for changes and run the script when a change is detected
@@ -37,6 +51,7 @@ function observeDOMChanges() {
     for (const mutation of mutations) {
       if (mutation.type === "childList" && mutation.addedNodes.length) {
         replaceLogo(); // Replace the logo on DOM changes
+        replaceFavicon(); // Replace the favicon on DOM changes
       }
     }
   });
