@@ -23,19 +23,32 @@ function replaceLogo() {
   }
 }
 
-function replaceFavicon() {
+function faviconIsNotTwitterBird() {
+  // Get the favicon link element from the DOM
+  const linkElement = document.querySelector('link[rel="icon"], link[rel="shortcut icon"]');
 
-  // Get the favicon link element or create one if it doesn't exist
+  // If the favicon exists and its href is not the desired Twitter bird icon, return true
+  return linkElement ? linkElement.href !== newFaviconURL : true;
+}
+
+function replaceFavicon() {
+  // Get the favicon link element from the DOM
   let linkElement = document.querySelector('link[rel="icon"], link[rel="shortcut icon"]');
 
-  if (!linkElement) {
+  if (faviconIsNotTwitterBird()) { 
+    if (!linkElement) {
       linkElement = document.createElement('link');
       linkElement.rel = 'icon';
       document.head.appendChild(linkElement);
-  }
+    }
 
-  // Replace the href attribute with the new favicon URL
-  linkElement.href = newFaviconURL;
+    // Add a timestamp to the URL to force a refresh
+    const timestamp = new Date().getTime();
+    const URL = `${newFaviconURL}?v=${timestamp}`; 
+
+    // Replace the href attribute with the new favicon URL
+    linkElement.href = URL;
+  }
 }
 
 document.addEventListener("DOMContentLoaded", function() {
