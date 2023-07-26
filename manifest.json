@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "DogeBeGone",
+    "name": "Twitter Classic",
     "version": "1.0",
-    "description": "Hides the Doge icon from Twitter and brings back the bird.",
+    "description": "Twitter Classic is a Chrome extension that brings back the classic Twitter logo",
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
