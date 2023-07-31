@@ -3,6 +3,19 @@ const twitterBirdPath = "M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-
 const twitterBirdColor = "#1da1f2"
 const newFaviconURL = 'twitter_bird.ico'; // Update this path to where your 'twitter.ico' is hosted
 
+function modifyPage(){
+  replaceTitle();
+  replaceLogo();
+  replaceFavicon();
+}
+
+function replaceTitle() {
+  // Check if the document's title ends with " / X"
+  if (document.title.endsWith(" / X")) {
+      // Remove the " / X" suffix
+      document.title = document.title.replace(" / X", "");
+  }
+}
 
 function replaceLogo() {
   const svgElements = document.querySelectorAll('svg');
@@ -47,8 +60,7 @@ function replaceFavicon() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  replaceLogo(); // Replace the logo on initial page load
-  replaceFavicon(); // Replace the favicon on initial page load
+  modifyPage();
 });
 
 // Observe the DOM for changes and run the script when a change is detected
@@ -56,8 +68,7 @@ function observeDOMChanges() {
   const observer = new MutationObserver((mutations) => {
     for (const mutation of mutations) {
       if (mutation.type === "childList" && mutation.addedNodes.length) {
-        replaceLogo(); // Replace the logo on DOM changes
-        replaceFavicon(); // Replace the favicon on DOM changes
+        modifyPage();
       }
     }
   });
