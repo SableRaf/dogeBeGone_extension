@@ -24,7 +24,6 @@ function replaceLogo() {
     pathElements.forEach(pathElement => {
       if (pathElement.getAttribute('d') === svgPathToReplace) {
         pathElement.setAttribute("d", twitterBirdPath);
-        pathElement.style.visibility = "visible";
         pathElement.style.fill = twitterBirdColor;
       }
     });
